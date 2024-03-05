@@ -28,9 +28,9 @@ namespace Exercise9
             Console.Write("Enter other row width: ");
             rowWidth = int.Parse(Console.ReadLine());
 
-            for (int i = 1; i < rowWidth; i++)
+            for (int i = 1; i <= rowWidth; i++)
             {
-                for (int j = 1; j <= rowWidth; j++)
+                for (int j = 1; j <= i; j++)
                 {
                     Console.Write("*");
                 }
